@@ -32,7 +32,50 @@ Robot Framework 7.0 (Python 3.12.2 on darwin)
 ### Robot Framework demo
 [Robot Framework demo](https://github.com/robotframework/RobotDemo)
 + Simple example test cases. Demonstrates also creating custom test libraries.
++ For Robot Framework installation
+```py
+    pip3 install robotframework-seleniumlibrary
+    pip3 uninstall robotframework-seleniumlibrary
+    pip3 install --upgrade robotframework-selenium2library
+```
 
 ### Web testing demo
 [Web testing demo](https://github.com/robotframework/WebDemo)
 + Demonstrates how to create tests and higher level keywords. The system under test is a simple web page that is tested using [SeleniumLibrary](https://github.com/robotframework/SeleniumLibrary).
+
+
+## Install text file in Webdemo folder
+```py
+    pip3 install -r requirements.txt
+```
+
+### Install from GitHub for robot framework and selenium library
++ For mac users
+    + Directly from the GitHub
+   ```py 
+        pip3 install git+https://github.com/robotframework/SeleniumLibrary.git 
+   ```
+
+
+### For running the demo
+```py 
+python3 demoapp/server.py
+```
+
+### For installing webdrivermanager
+```py
+    pip3 install webdrivermanager
+    webdriver-manager chrome --linkpath /usr/local/bin
+    webdriver-manager firefox chrome --linkpath /usr/local/bin
+```
+
+###
+
+
+
+
+
+
+
+
+
