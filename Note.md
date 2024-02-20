@@ -72,9 +72,29 @@ python3 demoapp/server.py
 ###
 
 
+## Test data syntax
++ Most common test data format
+    + [space separated format](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#space-separated-format)
+        + where keywords and arguments are separated with two or more spaces.
+    + [pipe separated format](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#pipe-separated-format)
+        + where the separator is the pipe character | surrounded with spaces ( | )
+    +  [reStructuredText](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#restructuredtext-format)
+        + Also test data formatted as reStructuredText  files are supported.
 
-
-
+## Standard Library keywords in Robot framework
++ Standard libraries need to be imported, but not installed. 
++ [BuiltIn keywords](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html)
+    + [Evaluating expressions](https://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Evaluating%20expressions)
+    + [Collections](https://robotframework.org/robotframework/latest/libraries/Collections.html)
+        + A library providing keywords for handling lists and dictionaries.
+    + [Process](https://robotframework.org/robotframework/latest/libraries/Process.html)
+        + Robot Framework library for running processes.
+    + e.tc.
+    + [User keywords arguments](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#user-keyword-arguments)
+        + Arguments are normally specified with the [Arguments] setting, and argument names use syntax ${arg1}.
+        
+### Robot Framework User Guide
+[Getting started](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#toc-entry-1)
 
 
 
