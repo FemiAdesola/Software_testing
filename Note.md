@@ -92,10 +92,17 @@ python3 demoapp/server.py
     + e.tc.
     + [User keywords arguments](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#user-keyword-arguments)
         + Arguments are normally specified with the [Arguments] setting, and argument names use syntax ${arg1}.
-        
+
 ### Robot Framework User Guide
 [Getting started](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#toc-entry-1)
 
 
 
-
+### Loop statement in Robot Framework User Guide
++ [For Loop](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#for-loops)
++ [FOR-IN-RANGE loop](https://docs.python.org/3/library/functions.html#func-range)
+    + Used when a loop is needed to execute a certain number of times. 
++ [FOR-IN-ENUMERATE loop](https://docs.python.org/3/library/functions.html#enumerate)
+    + Used to keep track of the current index while looping over a list. 
++ [FOR-IN-ZIP loop](https://docs.python.org/3/library/functions.html#zip)
+    + Used to loop over several related lists, together. 
