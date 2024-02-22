@@ -25,6 +25,12 @@ BODMAS Calculation
     and user pushes equals
     Then result is "60"
 
+BODMA2 Calculation
+    Given calculator has been cleared
+    When user types "( 1 0 * 6 / 2 + 1 5 ) * 2"
+    and user pushes equals
+    Then result is "90"
+
 *** Keywords ***
 Calculator has been cleared
     Push button    C

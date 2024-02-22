@@ -37,6 +37,10 @@ BODMAS calculation
     Push buttons    10 * 6 / 2 + 15 * 2 =
     Result should be    60
 
+BODMAS2 calculation
+    Push buttons   (10 * 6 / 2 + 15) * 2 =
+    Result should be    90
+
 Clear
     Push button    1
     Push button    C
