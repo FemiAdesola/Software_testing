@@ -1,5 +1,9 @@
 ## Software Testing With Robot FrameWork 
 
+[Robot FrameWork Resouces](https://robotframework.org/?tab=tools#resources)
+
+[Robot FrameWork guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#getting-started)
+
 ### For loop
 + For loop test with robot framework
     + Test case
